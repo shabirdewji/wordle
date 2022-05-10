@@ -1,0 +1,11 @@
+<html>
+<title>WORDLE HELPER</title>
+<head><link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}"></head>
+    <body bgcolor="#F0F8FF">
+        <form action="/" method="POST">
+        <p style="font-size:32px;">The results are : </p>
+            <p><b>{{mod_info}}</b></p>
+            <p> Hello {{mess}}</p>
+        <p><input style="font-weight: bold;font-size:24px; color:black" type="submit" value="Start another search" /></p>
+    </body>
+</html>
